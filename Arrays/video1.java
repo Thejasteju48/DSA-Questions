@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 class Array{
+  // To find largest element of Array
     public int largestelement(int A[])
     {
         int large = A[0];
