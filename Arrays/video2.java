@@ -143,15 +143,17 @@ public class video2 {
             {
                 if(result.isEmpty()||result.get(result.size()-1)!=arr1[i])
                 {
-                    result.add(arr1[i++]);
+                    result.add(arr1[i]);
                 }
+                i++;
             }
             else if(arr2[j]<arr1[i])
             {
                     if(result.isEmpty()||result.get(result.size()-1)!=arr2[j])
                     {
-                        result.add(arr2[j++]);
+                        result.add(arr2[j]);
                     }
+                j++;
             }
                 else{
                 if(result.isEmpty()||result.get(result.size()-1)!=arr1[i])
